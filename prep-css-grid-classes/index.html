@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    img {
+      width: 100%;
+    }
+
+    html {
+      background-color: #ffacae;
+    }
+
+    h1 {
+      color: dimgray;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: "Gotham", "Helvetica Neue", "Helvetica, Arial", sans-serif;
+      color: red;
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+      color: black;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      display: flex;
+      width: 100%;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+<h1>The Hobbit</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src= "https://m.media-amazon.com/images/I/71mOQV8-GzL._AC_.jpg"
+      alt="An Unexpected Journey">
+      <h3>An Unexpected Journey</h3>
+      <p>Bilbo Baggins (Martin Freeman) lives a simple life with his fellow hobbits in the shire, until the wizard Gandalf (Ian
+      McKellen) arrives and convinces him to join a group of dwarves on a quest to reclaim the kingdom of Erebor. The journey
+      takes Bilbo on a path through treacherous lands swarming with orcs, goblins and other dangers, not the least of which is
+      an encounter with Gollum (Andy Serkis) and a simple gold ring that is tied to the fate of Middle Earth in ways Bilbo
+      cannot even fathom.</p>
+    </div>
+    <div class="column">
+      <img src= "https://images-na.ssl-images-amazon.com/images/I/7145Wo9GjlL._AC_SY679_.jpg"
+      alt="The Desolation Of Smaug">
+      <h3>The Desolation Of Smaug</h3>
+      <p>Bilbo (Martin Freeman) and his companions continue their journey east and brave many dangers on their way to the Lonely
+          Mountain, culminating in an encounter with the fearsome dragon Smaug.</p>
+    </div>
+    <div class="column">
+      <img src= "https://images-na.ssl-images-amazon.com/images/I/A1QbAD2iMVL._AC_SL1500_.jpg"
+      alt="The Battle Of Five Armies.">
+      <h3>The Battle Of Five Armies</h3>
+      <p>Having reclaimed Erebor and vast treasure from the dragon Smaug, Thorin Oakenshield (Richard Armitage) sacrifices
+        friendship and honor in seeking the Arkenstone, despite Smaug's fiery wrath and desperate attempts by the Hobbit Bilbo
+        (Martin Freeman) to make him see reason. Meanwhile, Sauron sends legions of Orcs in a sneak attack upon the Lonely
+        Mountain. As the fate of Middle Earth hangs in the balance, the races of Men, Elves and Dwarves must decide whether to
+        unite and prevail -- or all die.</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
